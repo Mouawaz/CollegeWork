@@ -5,4 +5,11 @@ public class FamilyCar extends Car{
         Car(licenseNo,price);
         this.seats=seats;
     }
+
+    public int getSeats() {
+        return seats;
+    }
+    public String getType() {
+        return "Family Car";
+    }
 }
