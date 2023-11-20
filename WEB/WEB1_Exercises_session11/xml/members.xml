@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <person gender="male">
+        <firstname>Daniel</firstname>
+        <lastname>Munteanu</lastname>
+        <birthday>01/01/2020</birthday>
+        <email>email</email>
+    </person>
+
+    <person gender="male">
+        <firstname>Luca</firstname>
+        <lastname>Mouawad</lastname>
+        <birthday>08/04/2005</birthday>
+        <email>lucamouawad1@gmail.com</email>
+    </person>
+
+    <person gender="male">
+        <firstname>Tadeas</firstname>
+        <lastname>Juriek</lastname>
+        <birthday>01/01/2022</birthday>
+        <email>email</email>
+    </person>
+
+    <person gender="male">
+        <firstname>Jan</firstname>
+        <lastname>Karina</lastname>
+        <birthday>01/01/2020</birthday>
+        <email>email</email>
+    </person>
+</root>
