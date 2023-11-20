@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <person gender="male">
+    <person gender="male" eyeColor="brown">
         <firstname>Daniel</firstname>
         <lastname>Munteanu</lastname>
         <birthday>01/01/2020</birthday>
         <email>email</email>
     </person>
 
-    <person gender="male">
+    <person gender="male" eyeColor="brown">
         <firstname>Luca</firstname>
         <lastname>Mouawad</lastname>
         <birthday>08/04/2005</birthday>
         <email>lucamouawad1@gmail.com</email>
     </person>
 
-    <person gender="male">
+    <person gender="male" eyeColor="brown?">
         <firstname>Tadeas</firstname>
         <lastname>Juriek</lastname>
         <birthday>01/01/2022</birthday>
         <email>email</email>
     </person>
 
-    <person gender="male">
+    <person gender="male" eyeColor="brown">
         <firstname>Jan</firstname>
         <lastname>Karina</lastname>
-        <birthday>01/01/2020</birthday>
+        <birthday>01/01/2021</birthday>
         <email>email</email>
     </person>
 </root>
