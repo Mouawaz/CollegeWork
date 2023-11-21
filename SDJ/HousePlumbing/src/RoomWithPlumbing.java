@@ -1,11 +1,11 @@
 import java.util.Objects;
 
-public class RoomWithPlumbing extends Room {
+public abstract class RoomWithPlumbing extends Room {
     private boolean floorDrain;
 
-    public RoomWithPlumbing(String type, double size,boolean hasFoorDrain){
+    public RoomWithPlumbing(String type, double size,boolean hasFloorDrain){
         super(type,size);
-        this.floorDrain=hasFoorDrain;
+        this.floorDrain=hasFloorDrain;
     }
     public boolean hasFloorDrain(){
         return floorDrain;
