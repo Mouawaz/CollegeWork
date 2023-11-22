@@ -16,17 +16,22 @@ public class House {
         return meow;
     }
     public Room getRoom(String type){
-        for (int i = 0; i < rooms.length; i++) {
-            if(rooms[i].getType()==type) return rooms[i];
+        for (Room room : rooms) {
+            if (room.getType() == type) return room;
         }
         return null;
     }
     public int getNumberOfBathroomsWithShower(){
         int count = 0;
         for (int i = 0; i < rooms.length; i++) {
-            //if(rooms[i].==true) count++;
+            //if(rooms[i].hasShower==true) count++;
         }
         return count;
     }
 
+    public void installShowerToBathroomsLargerThan(double size){
+        for (Room room : rooms) {
+            //if (room.getType() == "bathroom" && room.getSize()>size) room.installShower;
+        }
+    }
 }
