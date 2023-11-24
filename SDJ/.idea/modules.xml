@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/HousePlumbing/HousePlumbing.iml" filepath="$PROJECT_DIR$/HousePlumbing/HousePlumbing.iml" />
       <module fileurl="file://$PROJECT_DIR$/Pizza/Pizza.iml" filepath="$PROJECT_DIR$/Pizza/Pizza.iml" />
       <module fileurl="file://$PROJECT_DIR$/SDJ.iml" filepath="$PROJECT_DIR$/SDJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SiteCollection/SiteCollection.iml" filepath="$PROJECT_DIR$/SiteCollection/SiteCollection.iml" />
     </modules>
   </component>
 </project>
