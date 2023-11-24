@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/SDJ/HousePlumbing/HousePlumbing.iml" filepath="$PROJECT_DIR$/SDJ/HousePlumbing/HousePlumbing.iml" />
       <module fileurl="file://$PROJECT_DIR$/SDJ/Pizza/Pizza.iml" filepath="$PROJECT_DIR$/SDJ/Pizza/Pizza.iml" />
       <module fileurl="file://$PROJECT_DIR$/SDJ/SDJ.iml" filepath="$PROJECT_DIR$/SDJ/SDJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SDJ/SiteCollection/SiteCollection.iml" filepath="$PROJECT_DIR$/SDJ/SiteCollection/SiteCollection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SDJ/SiteColllection/SiteColllection.iml" filepath="$PROJECT_DIR$/SDJ/SiteColllection/SiteColllection.iml" />
     </modules>
   </component>
 </project>
