@@ -33,6 +33,16 @@ public class SiteCollection {
             size--;
         }
     }
-    
-         
+
+    public WebSite getSite(int index) {
+        return webSites[index];
+    }
+
+    public boolean contains(WebSite site){
+        for (int i = 0; i < size; i++) {
+            if(webSites[i].equals(site))
+                return true;
+        }
+        return false;
+    }
 }
