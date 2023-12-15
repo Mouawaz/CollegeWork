@@ -9,7 +9,7 @@ public class Administrator extends User{
                 collection.getSite(i).setAccess(true);
         }
     }
-    //public Administrator createAdmin(User user){
-
-   // }
+    public Administrator createAdmin(User user){
+    return null;
+    }
 }
