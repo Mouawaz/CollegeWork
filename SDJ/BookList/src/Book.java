@@ -14,5 +14,18 @@ public class Book {
     public String getIsbn() {
         return isbn;
     }
-    
+
+    public String getBookType(){
+        return null;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 }

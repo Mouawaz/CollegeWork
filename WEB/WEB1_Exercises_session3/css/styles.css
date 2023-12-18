@@ -1,0 +1,14 @@
+body {
+    background-color: greenyellow;
+}
+
+.animal_main {
+    height: 150px;
+}
+
+p{
+    position: absolute;
+    float:right;
+    clear:right;
+    
+}
