@@ -11,5 +11,5 @@ public class SiteCollection {
     public int getNumberOfSites() {
         return size;
     }
-         
+
 }
