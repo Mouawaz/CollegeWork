@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class EBook extends Book{
     private String url;
 
@@ -12,6 +14,20 @@ public class EBook extends Book{
 
     @Override
     public String getBookType() {
-        return 
+        return "eBook";
     }
+
+    @Override
+    public String toString() {
+        return super.toString() +" "+ url;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj == null || obj.getClass() != getClass())
+            return false;
+        EBook other = (EBook) obj;
+        return url.equals(other.url);
+    }
+
 }
