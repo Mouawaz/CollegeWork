@@ -1,14 +1,33 @@
 body {
-    background-color: greenyellow;
+    background-color:beige;
+}
+table,td{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
 }
 
 .animal_main {
     height: 150px;
+    float: left;
+    overflow: auto;
+    padding: 5px;
+}
+p{
+    border-color: black;
+}
+#croc{
+background-color: antiquewhite;
+}
+#elle{
+    background-color: azure;
+
+}
+#girr{
+    background-color: khaki;
+
+}
+#tigg{
+    background-color: rgb(225, 166, 58);
 }
 
-p{
-    position: absolute;
-    float:right;
-    clear:right;
-    
-}
