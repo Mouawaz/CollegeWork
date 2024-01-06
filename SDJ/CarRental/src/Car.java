@@ -6,7 +6,7 @@ public class Car {
     private String licenseNo;
     private double price;
 
-    public void Car(String licenseNo,double price){
+    public Car(String licenseNo,double price){
         this.licenseNo=licenseNo;
         this.price=price;
     }
@@ -32,5 +32,8 @@ public class Car {
     }
     public boolean isAvailable(){
         return rentedTo == null;
+    }
+    public String getType(){
+        return
     }
 }

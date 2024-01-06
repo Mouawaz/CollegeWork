@@ -2,7 +2,7 @@ public class FamilyCar extends Car{
     private int seats;
 
     public FamilyCar(String licenseNo,double price,int seats){
-        Car(licenseNo,price);
+        super(licenseNo,price);
         this.seats=seats;
     }
 
@@ -10,6 +10,6 @@ public class FamilyCar extends Car{
         return seats;
     }
     public String getType() {
-        return "Family Car";
+        return "FamilyCar";
     }
 }
