@@ -34,6 +34,6 @@ public class Car {
         return rentedTo == null;
     }
     public String getType(){
-        return
+        return getType();
     }
 }
