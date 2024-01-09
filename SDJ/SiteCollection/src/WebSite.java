@@ -1,12 +1,10 @@
-import java.util.Objects;
-
-public class WebSite{
+public class WebSite {
     private String url;
     private boolean userAccess;
 
-    public WebSite(String url,boolean access){
+    public WebSite(String url, boolean userAccess){
         this.url=url;
-        this.userAccess=access;
+        this.userAccess=userAccess;
     }
 
     public String getUrl() {
@@ -16,20 +14,17 @@ public class WebSite{
     public void setAccess(boolean userAccess) {
         this.userAccess = userAccess;
     }
-    public boolean hasAccess(){
+
+    public boolean hasAccess() {
         return userAccess;
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        WebSite webSite = (WebSite) o;
-        return userAccess == webSite.userAccess && Objects.equals(url, webSite.url);
+    public boolean equals(Object obj) {
+        if(obj == null || obj.getClass()!=getClass())
+            return false;
+        WebSite other = (WebSite) obj;
+        return url.equals(other.url)&&userAccess==other.userAccess;
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(url, userAccess);
-    }
 }

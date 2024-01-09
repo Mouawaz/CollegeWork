@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SDJ/BookList/BookList.iml" filepath="$PROJECT_DIR$/SDJ/BookList/BookList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SDJ/CarDealer/CarDealer.iml" filepath="$PROJECT_DIR$/SDJ/CarDealer/CarDealer.iml" />
       <module fileurl="file://$PROJECT_DIR$/SDJ/CarRental/CarRental.iml" filepath="$PROJECT_DIR$/SDJ/CarRental/CarRental.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/CollegeWork.iml" filepath="$PROJECT_DIR$/.idea/CollegeWork.iml" />
       <module fileurl="file://$PROJECT_DIR$/DMA/DMA.iml" filepath="$PROJECT_DIR$/DMA/DMA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SDJ/EmployeeList/EmployeeList.iml" filepath="$PROJECT_DIR$/SDJ/EmployeeList/EmployeeList.iml" />
       <module fileurl="file://$PROJECT_DIR$/SDJ/HousePlumbing/HousePlumbing.iml" filepath="$PROJECT_DIR$/SDJ/HousePlumbing/HousePlumbing.iml" />
       <module fileurl="file://$PROJECT_DIR$/SDJ/Order/Order.iml" filepath="$PROJECT_DIR$/SDJ/Order/Order.iml" />
       <module fileurl="file://$PROJECT_DIR$/SDJ/Pizza/Pizza.iml" filepath="$PROJECT_DIR$/SDJ/Pizza/Pizza.iml" />
