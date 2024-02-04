@@ -1,10 +1,8 @@
-import java.util.Objects;
-
 public class EBook extends Book{
     private String url;
 
     public EBook(String url, String title, String isbn){
-        super(title,isbn);
+        super(title, isbn);
         this.url = url;
     }
 
@@ -13,21 +11,19 @@ public class EBook extends Book{
     }
 
     @Override
-    public String getBookType() {
-        return "eBook";
+    public String toString() {
+        return getTitle() + " " + getIsbn() + " " + getUrl();
     }
 
     @Override
-    public String toString() {
-        return super.toString() +" "+ url;
+    public String getBookType() {
+        return "E-book";
     }
 
     @Override
     public boolean equals(Object obj) {
         if(obj == null || obj.getClass() != getClass())
             return false;
-        EBook other = (EBook) obj;
-        return url.equals(other.url);
-    }
 
+    }
 }
