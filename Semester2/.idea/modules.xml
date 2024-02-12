@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bar/Bar.iml" filepath="$PROJECT_DIR$/Bar/Bar.iml" />
       <module fileurl="file://$PROJECT_DIR$/BurgerBar/BurgerBar.iml" filepath="$PROJECT_DIR$/BurgerBar/BurgerBar.iml" />
       <module fileurl="file://$PROJECT_DIR$/ComputerSimulator/ComputerSimulator.iml" filepath="$PROJECT_DIR$/ComputerSimulator/ComputerSimulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConfessionChair/ConfessionChair.iml" filepath="$PROJECT_DIR$/ConfessionChair/ConfessionChair.iml" />
       <module fileurl="file://$PROJECT_DIR$/CounterIncDecSync/CounterIncDecSync.iml" filepath="$PROJECT_DIR$/CounterIncDecSync/CounterIncDecSync.iml" />
       <module fileurl="file://$PROJECT_DIR$/CounterIncrementor v1/CounterIncrementor v1.iml" filepath="$PROJECT_DIR$/CounterIncrementor v1/CounterIncrementor v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NotifyAt8/NotifyAt8.iml" filepath="$PROJECT_DIR$/NotifyAt8/NotifyAt8.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Semester2.iml" filepath="$PROJECT_DIR$/.idea/Semester2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleToilet/SimpleToilet.iml" filepath="$PROJECT_DIR$/SimpleToilet/SimpleToilet.iml" />
       <module fileurl="file://$PROJECT_DIR$/TemperatureConversion/TemperatureConversion.iml" filepath="$PROJECT_DIR$/TemperatureConversion/TemperatureConversion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Thermometer/Thermometer.iml" filepath="$PROJECT_DIR$/Thermometer/Thermometer.iml" />
     </modules>

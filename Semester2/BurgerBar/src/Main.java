@@ -3,12 +3,12 @@ public class Main {
         BurgerBar burgerBar = new BurgerBar(100);
         BurgerBarEmployee burgerBarEmployee;
 
-        BurgerBarCustomer c1 = new BurgerBarCustomer("Daniel1",burgerBar, 10);
-        BurgerBarCustomer c2 = new BurgerBarCustomer("Daniel2",burgerBar, 10);
-        BurgerBarCustomer c3 = new BurgerBarCustomer("Daniel3",burgerBar, 10);
-        BurgerBarCustomer c4 = new BurgerBarCustomer("Daniel4",burgerBar, 10);
+        BurgerBarCustomer c1 = new BurgerBarCustomer("User1",burgerBar, 10);
+        BurgerBarCustomer c2 = new BurgerBarCustomer("User2",burgerBar, 10);
+        BurgerBarCustomer c3 = new BurgerBarCustomer("User3",burgerBar, 10);
+        BurgerBarCustomer c4 = new BurgerBarCustomer("User4",burgerBar, 10);
 
-        BurgerBarEmployee e1 = new BurgerBarEmployee("Luca");
+        BurgerBarEmployee e1 = new BurgerBarEmployee("Luca", burgerBar);
 
         Thread C1 = new Thread(c1);
         Thread C2 = new Thread(c2);

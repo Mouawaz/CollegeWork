@@ -12,8 +12,12 @@ public class BurgerBarCustomer implements Runnable{
     @Override
     public void run() {
         for (int i = 0; i < burgersToEat; i++) {
-            burgerBar.eatBurger(name);
-            System.out.println("burger eaten by " + name);
+            try {
+                burgerBar.eatBurger(name);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+            System.out.println("burger eaten by " + name +" ** REMAINING:" + burgerBar.getNumberOfBurgers());
             try {
                 Thread.sleep(5000);
             } catch (InterruptedException e) {
